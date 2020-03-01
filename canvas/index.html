@@ -1,0 +1,17 @@
+<html>
+<head>
+<link rel="stylesheet" href="index.css">
+<script src="main.js"> </script>
+</head>
+<body onload="startGame()">
+  <div style="text-align:center;width:1000px;">
+  <button class="button" onmousedown="myGamePiece()" onmouseup="myGamePiece()" ontouchstart="myGamePiece()">DRAW</button>
+  <button class="button" onmousedown="moveup()" onmouseup="clearmove()" ontouchstart="moveup()">UP</button>
+  <button class="button" onmousedown="moveleft()" onmouseup="clearmove()" ontouchstart="moveleft()">LEFT</button>
+  <button class="button" onmousedown="moveright()" onmouseup="clearmove()" ontouchstart="moveright()">RIGHT</button>
+  <button class="button" onmousedown="movedown()" onmouseup="clearmove()" ontouchstart="movedown()">DOWN</button>
+  <button class="button" onmousedown="remove()" onmouseup="remove()" ontouchstart="remove()">DELETE</button>
+  
+</div>
+</body>
+</html>
